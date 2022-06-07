@@ -2,7 +2,7 @@
 Bangkit Academy 2022 Captsone Project
 
 ## Initial Setup
-Setup for tensorflow in local machine with nvidia gpu (CUDA and cuDNN)
+Setup to run tensorflow in local machine with nvidia gpu (CUDA and cuDNN)
 
 ## Compatibility
 1. CUDA GPUs Compatibility : https://developer.nvidia.com/cuda-gpus
