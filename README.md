@@ -7,3 +7,5 @@ Setup to run tensorflow in local machine with nvidia gpu (CUDA and cuDNN), follo
 ## Fashion Classfication
 
 ## Fashion Color Classfication
+1. Download the dataset and replace to Dataset Folder
+2. Run Split_train_val.ipynb to split the dataset into train and val folder in Dataset_Sokit folder
