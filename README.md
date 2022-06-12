@@ -8,7 +8,8 @@ Setup to run tensorflow in local machine with nvidia gpu (CUDA and cuDNN), follo
 1. Download the dataset from and replace to `Fashion Classfication/` Folder
 2. Run [Split Categorical.ipynb](https://github.com/feranteef/Almari/blob/main/Fashion%20Classification/Split%20Categorical.ipynb) to split the dataset into `46 fashion` folder
 3. Select all `46 fashion` folder and replace into `Fashion Classfication/Dataset` folder
-4. Run [Split_train_val.ipynb](https://github.com/feranteef/Almari/blob/main/Fashion%20Classification/Split_train_val.ipynb) to split the dataset into `train and val` folder in ``Fashion Color Classfication/Dataset_Split/` folder
+4. Run [Split_train_val.ipynb](https://github.com/feranteef/Almari/blob/main/Fashion%20Classification/Split_train_val.ipynb) to split the dataset into `train and val` folder in `Fashion Color Classfication/Dataset_Split/` folder
+5. Run [VGG16_Model.ipynb](https://github.com/feranteef/Almari/blob/main/Fashion%20Classification/VGG16_Model.ipynb) to train the model and export trained model into `my_model3.h5`
 
 
 ## Fashion Color Classfication
