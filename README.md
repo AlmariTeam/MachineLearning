@@ -1,5 +1,5 @@
 # Almari
-Bangkit Academy 2022 Captsone Project, This project classify fashion model into 46 fashion category and 10 fashion color.
+Bangkit Academy 2022 Capstone Project, This project classify fashion model into 46 fashion category and 10 fashion color.
 
 ## Initial Setup
 Setup to run tensorflow in local machine with nvidia gpu (CUDA and cuDNN), follow the instruction in [tensorflow-local-gpu](https://github.com/feranteef/tensorflow-local-gpu#tensorflow-local-gpu) or [Tensorflow_GPU_Setup](https://github.com/feranteef/Almari/blob/main/Setup/Tensorflow_GPU_Setup.md) github repositories
@@ -18,3 +18,9 @@ Setup to run tensorflow in local machine with nvidia gpu (CUDA and cuDNN), follo
 3. Run [Standard_Model.ipynb](https://github.com/feranteef/Almari/blob/main/Fashion%20Color%20Classfication/Standard_Model.ipynb) to train the model and export trained model into `my_model.h5`
 
 ## Deployment
+1. Download the Cloud Deployment folder.
+2. Create a storage bucket on Google Cloud Storage and upload [my_model3.h5] and [my_model.h5] into your bucket.
+3. Create a Cloud Function for [clothing-detection] and choose 2 GB allocated memory, trigger (HTTP trigger) and runtime (python 3.7).
+4. Set main.py and requirements.txt files by copying the code from [clothing-detection.py] file. 
+5. Set 'handler' for the function to execute and click create.
+6. Repeat step 3 for the [color-detection.py].
