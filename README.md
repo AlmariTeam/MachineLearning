@@ -1,4 +1,4 @@
-# Almari
+# Almari Machine Learning
 Bangkit Academy 2022 Capstone Project, This project classify fashion model into 46 fashion category and 10 fashion color.
 
 ## Initial Setup
