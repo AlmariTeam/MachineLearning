@@ -22,4 +22,4 @@ Setup to run tensorflow in local machine with nvidia gpu (CUDA and cuDNN), follo
 2. Second
 
 ## Deployment
-Continue to [https://github.com/AlmariTeam/Cloud-Computing](https://github.com/AlmariTeam/Cloud-Computing) for deployment on Google Cloud Console.
+Continue to [Cloud-Computing](https://github.com/AlmariTeam/Cloud-Computing) repositories for deployment on Google Cloud Console.
