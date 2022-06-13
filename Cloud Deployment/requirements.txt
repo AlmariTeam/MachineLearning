@@ -1,8 +1,0 @@
-# Function dependencies, for example:
-# package>=version
-
-tensorflow>=2.9.1
-google-cloud-storage
-Pillow
-numpy
-flask
