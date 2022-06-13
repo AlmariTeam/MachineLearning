@@ -18,3 +18,8 @@ Setup to run tensorflow in local machine with nvidia gpu (CUDA and cuDNN), follo
 3. Run [Standard_Model.ipynb](https://github.com/feranteef/Almari/blob/main/Fashion%20Color%20Classfication/Standard_Model.ipynb) to train the model and export trained model into `my_model.h5`
 
 ## Deployment Preparation
+1. First
+2. Second
+
+## Deployment
+Continue to [https://github.com/AlmariTeam/Cloud-Computing](https://github.com/AlmariTeam/Cloud-Computing) for deployment on Google Cloud Console.
